@@ -1,0 +1,23 @@
+{
+  "name": "superpapi",
+  "version": "1.0.4",
+  "description": "Node native module to encrypt/decrypt data. On Windows, it uses DPAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "keywords": [
+    "dpapi",
+    "encrypt"
+  ],
+  "author": "Brad Hughes",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.13.2"
+  }
+}
